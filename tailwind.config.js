@@ -5,8 +5,10 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
     './app/**/*.{js,ts,jsx,tsx}',
   ],
+  darkMode:"class",
   theme: {
     fontFamily: {
+      sans:["ui-sans-serif","system-ui"],
       'Kaushan': ['Kaushan Script'],
 
     },

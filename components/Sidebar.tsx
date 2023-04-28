@@ -3,6 +3,7 @@ import {AiFillGithub, AiFillLinkedin, AiOutlineInstagram} from "react-icons/ai"
 import {GrLocation} from "react-icons/gr"
 import {GiTie} from 'react-icons/gi'
 import profile from "../assets/images/about.jpg"
+import Image from 'next/image'
 
   
 function Sidebar() {
@@ -46,7 +47,7 @@ function Sidebar() {
       <button className='w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none'
       onClick={()=>window.open("mailto:muleyapfano12345@gmail.com")}
       >Email Me</button>
-      <button className='w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400'>Toggle Theme</button>
+     
     </div>
   )
 }
